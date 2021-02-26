@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html> 
+<body> 
+ <h1>Please enter the required information</h1> 
+<form action="/user" method="POST"> 
+  Name:<br> 
+  <input type="text" name="name" required> 
+  <br> 
+  Email id:<br> 
+  <input type="text" name="email" required> 
+  <br>
+  userId:<br> 
+  <input type="text" name="userId" required>
+  <br>
+  password:<br> 
+  <input type="text" name="password" required>
+  <br>
+  phone:<br>
+  <input type="text" name="phone" >
+  <br>
+  address:<br>
+  <input type="text" name="address" >
+  <br>
+  <button type="submit">Submit</button>
+</form>  
+<br>
+<br>
+<p>Forgot password?</p>
+<form action="/resetpassword" method="POST">
+Enter userID:<br>
+<input type="text" name="userId">
+<button type="submit">Submit</button>
+</form>
+  
+</body> 
+</html> 
